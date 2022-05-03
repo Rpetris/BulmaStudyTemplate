@@ -1,0 +1,53 @@
+.title {
+  color: white;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #f1eeef;
+  padding-bottom: 17px;
+  padding-top: 20px;
+}
+footer .rights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  gap: 1.8rem;
+  padding: 13px;
+}
+footer .image {
+  height: 32px;
+  width: 32px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ff0043;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.advise {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 10rem;
+}
+
+/*# sourceMappingURL=style.css.map */

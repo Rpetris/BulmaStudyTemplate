@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="/assets/adicionar-botao-quadrado.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>LOGO</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="navbar is-fixed-top is-dark"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="../index.html">
+            <h1 class="title is-1">LOGO</h1>
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="../index.html"> Home </a>
+
+            <a class="navbar-item"> Documentação e termos </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> Mais </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item"> Sobre </a>
+                <a class="navbar-item"> Serviços </a>
+                <a class="navbar-item"> Contato </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Reporte um erro </a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Inscreva-se</strong>
+                </a>
+                <a class="button is-light"> Log in </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr class="navbar-divider" />
+    </header>
+
+    <div class="container">
+      <div class="field">
+        <label class="label">Nome</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ex: José Bezerra" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Usuário</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-success" type="text" placeholder="JBezerra" />
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+        <p class="help is-success">Este usuário está disponível!</p>
+      </div>
+
+      <div class="field">
+        <label class="email">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input
+            class="input is-danger"
+            type="email"
+            placeholder="Email input"
+            value="JBezerra@"
+          />
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">Esse email é inválido</p>
+      </div>
+
+      <div class="field">
+        <label class="label">Sexo</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Masculino</option>
+              <option>Feminino</option>
+              <option>Não-binário</option>
+              <option>Outro</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Menssagem</label>
+        <div class="control">
+          <textarea
+            class="textarea"
+            placeholder="Escreva sua mensagem aqui"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox" />
+            Eu concordo com os <a href="#">termos e condições</a>
+          </label>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="question" />
+            Sim
+          </label>
+          <label class="radio">
+            <input type="radio" name="question" />
+            Não
+          </label>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Enviar</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="rights">
+        <strong>LOGO </strong> by
+        <a href="https://github.com/Rpetris" target="_blank">Ryan Petris.</a> O
+        código fonte é licenciado
+      </p>
+      <section class="social">
+        <figure class="image">
+          <a href="https://www.instagram.com/ryanpetris/" target="_blank"
+            ><img src="/assets/instagram.png" alt=""
+          /></a>
+        </figure>
+        <figure class="image">
+          <a href="https://github.com/Rpetris" target="_blank"
+            ><img src="/assets/github.png" alt=""
+          /></a>
+        </figure>
+        <figure class="image">
+          <a
+            href="https://www.linkedin.com/in/ryan-augusto-passos-petris-863007198/"
+            target="_blank"
+            ><img src="/assets/linkedin.png" alt=""
+          /></a>
+        </figure>
+      </section>
+    </footer>
+  </body>
+</html>
